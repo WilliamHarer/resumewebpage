@@ -1,5 +1,3 @@
-import Header from '@/View/Components/Header'
-import Image from 'next/image'
 import InfoPaper from "@/View/Components/InfoPaper";
 import PreviousEmployment from "@/View/Components/ResumeText/PreviousEmployment";
 import React from "react";
