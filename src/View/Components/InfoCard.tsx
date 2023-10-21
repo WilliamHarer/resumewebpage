@@ -7,7 +7,7 @@ import React, {ReactElement} from "react";
 // };
 interface InfoCardProps {
     text?: string;
-    children?: ReactElement;
+    children?: ReactElement|ReactElement[];
     height?: string;
     backgroundColor?: string;
 }
