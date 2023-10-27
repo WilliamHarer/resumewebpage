@@ -16,10 +16,10 @@ export default function InfoCard( props:InfoCardProps ) {
         <Paper style={{ borderRadius: 15,
         display: 'flex',
         height: props.height,
-        marginTop: '20px',
+        marginTop: '60px',
         marginLeft: '20px',
         marginRight: '20px',
-        marginBottom: '20px',
+        marginBottom: '60px',
         backgroundColor: props.backgroundColor? props.backgroundColor:'#E9EAE4',
         overflowY: 'auto',
         boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +

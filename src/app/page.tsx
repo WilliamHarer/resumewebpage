@@ -1,20 +1,31 @@
+'use client'
+
 import InfoPaper from "@/View/Components/InfoPaper";
 import PreviousEmployment from "@/View/Components/ResumeText/PreviousEmployment";
 import React from "react";
 import InfoCard from "@/View/Components/InfoCard";
 import Image from 'next/image'
 import Avatar from '../../public/Assets/Avatar.jpg'
+import Skills from "@/View/Components/ResumeText/Skills";
+import Header from "@/View/Components/Header";
+import {useScrollTrigger} from "@mui/material";
+
+
+
+
+
 export default function Home() {
   return (
       <main style={{height:'100%'}}>
+          <Header/>
           <div style={{height:'100%', display: 'flex',}}>
-              <div className={'LandingDivLeft'} style={{height:'100%', maxWidth: '30%', flex:1, backgroundColor:'#EBB6AA', flexShrink: 0, boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +
+              <div className={'LandingDivLeft'} style={{height:'100%', maxWidth: '30%', flex:1, backgroundColor:'#868180', flexShrink: 0, boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +
                       "      inset 0 2px 2px hsl(0deg 0% 0% / 0.075),\n" +
                       "      inset 0 4px 4px hsl(0deg 0% 0% / 0.075),\n" +
                       "      inset 0 8px 8px hsl(0deg 0% 0% / 0.075),\n" +
                       "      inset 0 16px 16px hsl(0deg 0% 0% / 0.075)",
                   clipPath: 'inset 0px -15px 0px 0px'}}>
-                  <InfoCard backgroundColor={'#246170'} height={'30%'}>
+                  <InfoCard backgroundColor={'#246170'} height={'auto'}>
                       <div style={{display:'flex',flexDirection:'column'}}>
                           <div style={{maxHeight:'60%',maxWidth:'100%', flex:1, flexShrink:0, display:'flex',flexDirection:'row' }}>
                               <div style={{maxHeight:'60%',marginLeft:'10px', marginTop: '10px', marginRight:'20px', flex:1, flexShrink:0, maxWidth:'125px'}}>
@@ -30,8 +41,10 @@ export default function Home() {
                           </div>
                       </div>
                   </InfoCard>
-                  <InfoCard height={'40%'}/>
-                  <InfoCard height={'20%'}/>
+                  <InfoCard height={'auto'}>
+                      <Skills />
+                  </InfoCard>
+                  <InfoCard height={'auto'}/>
               </div>
               <div className={'LandingDivRight'} style={{height:'100%', maxWidth: '70%',flex:1, backgroundColor:'#ACD4B1', flexShrink: 0, boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +
                       "      inset 0 2px 2px hsl(0deg 0% 0% / 0.075),\n" +
