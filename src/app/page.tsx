@@ -32,7 +32,7 @@ export default function Home() {
                       </div>
                   </InfoCard>
                   <InfoCard height={'40%'}>
-                      <Skills/>
+                      <Skills />
                   </InfoCard>
                   <InfoCard height={'20%'}/>
               </div>
