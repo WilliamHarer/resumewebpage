@@ -7,8 +7,13 @@ import Avatar from '../../public/Assets/Avatar.jpg'
 export default function Home() {
   return (
       <main style={{height:'100%'}}>
-          <div style={{height:'100%', display: 'flex'}}>
-              <div className={'LandingDivLeft'} style={{height:'100%', maxWidth: '30%', flex:1, backgroundColor:'#EBB6AA', flexShrink: 0}}>
+          <div style={{height:'100%', display: 'flex',}}>
+              <div className={'LandingDivLeft'} style={{height:'100%', maxWidth: '30%', flex:1, backgroundColor:'#EBB6AA', flexShrink: 0, boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +
+                      "      inset 0 2px 2px hsl(0deg 0% 0% / 0.075),\n" +
+                      "      inset 0 4px 4px hsl(0deg 0% 0% / 0.075),\n" +
+                      "      inset 0 8px 8px hsl(0deg 0% 0% / 0.075),\n" +
+                      "      inset 0 16px 16px hsl(0deg 0% 0% / 0.075)",
+                  clipPath: 'inset 0px -15px 0px 0px'}}>
                   <InfoCard backgroundColor={'#246170'} height={'30%'}>
                       <div style={{display:'flex',flexDirection:'column'}}>
                           <div style={{maxHeight:'60%',maxWidth:'100%', flex:1, flexShrink:0, display:'flex',flexDirection:'row' }}>
