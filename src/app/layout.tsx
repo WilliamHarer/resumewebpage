@@ -1,4 +1,3 @@
-import Header from '@/View/Components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -13,25 +12,6 @@ export const metadata: Metadata = {
 }
 
 
-interface Props {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  children: React.ReactElement;
-}
-
-function ElevationScroll(props: Props) {
-  const { children} = props;
-  const trigger = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 0,
-  });
-
-  return React.cloneElement(children, {
-    elevation: trigger ? 4 : 0,
-  });
-}
 export default function RootLayout({
   children,
 }: {
