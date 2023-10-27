@@ -7,9 +7,9 @@ export default function PreviousEmployment() {
             marginRight: '40px',
             marginBottom: '20px',}}>
             <span className="c6 c12" style={{fontSize:'26pt', fontWeight:'bold'}}>Previous Employment</span>
-            <p className="c4" style={{marginTop:5}}><span className="c9 c6" style={{fontSize:'14pt'}}>Extensis, SDET, August 2021 to September 2023:</span></p>
-            <p className="c4" style={{marginTop:50}}><span className="c9 c6" style={{fontSize:'14pt'}}>SDET Aligned Responsibilities:</span></p>
-            <p className="c7" style={{lineHeight:1.5, marginLeft:20, marginRight:20, marginTop: 20, marginBottom: 20,maxWidth:'90%', fontSize:'11pt'}}>
+            <p className="c4" style={{marginTop:5}}><span className="c9 c6" style={{fontSize:'16pt'}}>Extensis, SDET, August 2021 to September 2023:</span></p>
+            <p className="c4" style={{marginTop:50}}><span className="c9 c6" style={{fontSize:'16pt'}}>SDET Aligned Responsibilities:</span></p>
+            <p className="c7" style={{lineHeight:1.5, marginLeft:20, marginRight:20, marginTop: 20, marginBottom: 20,maxWidth:'90%', fontSize:'16pt'}}>
                 Monitor Jenkins builds to track End to End testing failures, or other failures within the CI/CD and automated testing systems.<br/>
                 Fixing flaky/failing End to End tests which were built with Typescript/Cypress.<br/>
                 Implementing the first PACT tests that actually utilized API requests between our microservices as a proof of concept.<br/>
@@ -21,7 +21,7 @@ export default function PreviousEmployment() {
                 Ensuring our sonarQube code coverage was within tolerance, occasionally improving older tests to keep well within our acceptable coverage.<br/>
             </p>
             <p className="c4" style={{marginTop:50}}><span className="c9 c6" style={{fontSize:'14pt'}}>SWE Aligned Responsibilities:</span></p>
-            <p className="c7" style={{lineHeight:1.5, marginLeft:20, marginRight:20, marginTop: 20, paddingBottom:60,maxWidth:'90%', fontSize:'11pt'}}>
+            <p className="c7" style={{lineHeight:1.5, marginLeft:20, marginRight:20, marginTop: 20, paddingBottom:60,maxWidth:'90%', fontSize:'16pt'}}>
                 Attended daily standup Agile development meetings.<br/>
                 Understanding our codebase across multiple microservices.<br/>
                 Tracking down bugs within our stack and microservices, and implementing solutions.<br/>
