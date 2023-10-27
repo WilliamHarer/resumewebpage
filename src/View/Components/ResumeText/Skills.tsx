@@ -2,7 +2,6 @@ export default function skills() {
     return(
         <div>
         <p className="c4"><span className="c6 c14">Skills</span>
-            <hr/>
         </p>
         <p className="c4"><span className="c6">Analysis:</span><span className="c0">&nbsp;Topological Data Analysis (introductory)</span>
         </p>

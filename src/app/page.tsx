@@ -4,6 +4,7 @@ import React from "react";
 import InfoCard from "@/View/Components/InfoCard";
 import Image from 'next/image'
 import Avatar from '../../public/Assets/Avatar.jpg'
+import Skills from "@/View/Components/ResumeText/Skills";
 export default function Home() {
   return (
       <main style={{height:'100%'}}>
@@ -30,7 +31,9 @@ export default function Home() {
                           </div>
                       </div>
                   </InfoCard>
-                  <InfoCard height={'40%'}/>
+                  <InfoCard height={'40%'}>
+                      <Skills/>
+                  </InfoCard>
                   <InfoCard height={'20%'}/>
               </div>
               <div className={'LandingDivRight'} style={{height:'100%', maxWidth: '70%',flex:1, backgroundColor:'#ACD4B1', flexShrink: 0, boxShadow: "      inset 0 1px 1px hsl(0deg 0% 0% / 0.075),\n" +
