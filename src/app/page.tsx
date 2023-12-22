@@ -1,15 +1,11 @@
 'use client'
 
-import InfoPaper from "@/View/Components/InfoPaper";
-import PreviousEmployment from "@/View/Components/ResumeText/PreviousEmployment";
+
 import React from "react";
-import InfoCard from "@/View/Components/InfoCard";
+
 import Image from 'next/image'
 import Background from '../../public/Assets/BackgroundImageFade.jpg'
-import Avatar from '../../public/Assets/Avatar.jpg'
-import Skills from "@/View/Components/ResumeText/Skills";
 import Header from "@/View/Components/Header";
-import {useScrollTrigger} from "@mui/material";
 import ContentBreak from "@/View/Components/ContentBreak";
 import Introduction from "@/View/Components/Introduction";
 import ResumeSection from "@/View/Components/ResumeSection";

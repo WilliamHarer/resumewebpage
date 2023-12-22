@@ -1,7 +1,5 @@
-import * as react from 'react'
 import Avatar from '../../../public/Assets/Avatar.jpg'
 import Image from 'next/image'
-import {borderRadius} from "@mui/system";
 import Typography from "@mui/material/Typography";
 
 export default function Introduction(){
